@@ -134,6 +134,7 @@
         <li><a href="#">Clan Leadership</a>
           <ul>
             <li><a href="#">Current Leadership</a></li>
+            <li><a href="#">Older Co-Leaders</a></li>
             <li><a href="#">DC1 MarioMV</a></li>
             <li><a href="#">DC1/4 Matisse</a></li>
           </ul>
@@ -156,8 +157,6 @@
           </ul>
         <li><a href="#">Anniversaries</a></li>
           <ul>
-            <li><a href="#">Current Leadership</a></li>
-            <li><a href="#">Older Co-Leaders</a></li>
             <li><a href="#">Clan Info</a>
             <li><a href="#">Clan Info</a>
             <li><a href="#">Clan Info</a>
