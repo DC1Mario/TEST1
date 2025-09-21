@@ -376,7 +376,6 @@
   </section>
 </main>
 
-
   <footer>
     <p>© Dark Captains, 2021</p>
     <p>Đ© now exists in Facebook and in Amino.</p>
