@@ -371,11 +371,10 @@ Current code:
       <li>100. Đ©Stavros {StavrosGamer}</li>
     </ul>
   </section>
-    </section>
+    </main>
 
 
 </main>
-
   <footer>
     <p>© Dark Captains, 2021</p>
     <p>Đ© now exists in Facebook and in Amino.</p>
