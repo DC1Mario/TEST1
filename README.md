@@ -245,11 +245,6 @@
       </ul>
     </section>
 
-    <section class="rate">
-      <p><strong>Feel free to rate & comment our site:</strong></p>
-    </section>
-  </main>
-
   <section id="dc_list_4">
   <section>
     <h2>★★ Đ© Member List #4 (11/02/2017) ★★</h2>
