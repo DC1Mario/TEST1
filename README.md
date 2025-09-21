@@ -138,7 +138,7 @@
           <ul>
             <li><a href="#">Members' List</a></li>
             <li><a href="#">Ex Members</a></li>
-            <li><a href="#" data-page="dc_list_4">DC LIST #4</a></li>
+            <div id="dc_list_4" class="page">
             <li><a href="#">FaceBook + Amino</a></li>
             <li><a href="#">Unknown if they are members</a></li>
           </ul>
