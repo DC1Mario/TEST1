@@ -199,7 +199,7 @@
     <section>
       <h3>Links:</h3>
       <ul>
-        <li><a href="https://web.archive.org/web/20171022231823if_/https://miiverse.nintendo.net/posts/AYQHAAABAACXVHho1Y0iOA">F1Ray's statement</a></li>
+        <li><a href="https://web.archive.org/web/20171022231823if_/https://miiverse.nintendo.net/posts/AYQHAAABAACXVHho1Y0iOA" target="_blank">F1Ray's statement</a></li>
       </ul>
     </section>
 
