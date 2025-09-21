@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dark Captains ~ Steel Diver: Sub Wars</title>
   <style>
-			body {
+    body {
       font-family: Arial, sans-serif;
       margin: 0;
       background-color: #f5f5f5;
@@ -16,13 +16,10 @@
       background-color: #eee;
       text-align: center;
       padding: 1em 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
-
- header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
 
     header h1 {
       font-size: 1.8em;
@@ -71,10 +68,12 @@
       background-color: #f1f1f1;
       box-shadow: 0 8px 16px rgba(0,0,0,0.2);
       z-index: 1;
+      flex-direction: column;
+      gap: 0;
     }
 
     nav ul li:hover > ul {
-      display: block;
+      display: flex;
     }
 
     nav ul ul li a {
@@ -125,11 +124,9 @@
     <h1>Đark ©aptains ~ Steel Diver: Sub Wars</h1>
     <nav>
       <ul>
-		<li><a href="#home_page">HOME PAGE</a></li>
-          <ul>
-            <li><a href="#">Members' List</a></li>
-          </ul>
-        <li>Our Members
+        <li><a href="#home_page">HOME PAGE</a></li>
+
+        <li><a href="#">Our Members</a>
           <ul>
             <li><a href="#">Members' List</a></li>
             <li><a href="#">Ex Members</a></li>
@@ -137,6 +134,8 @@
             <li><a href="#">FaceBook + Amino</a></li>
             <li><a href="#">Unknown if they are members</a></li>
           </ul>
+        </li>
+
         <li><a href="#">Clan Leadership</a>
           <ul>
             <li><a href="#">Current Leadership</a></li>
@@ -144,6 +143,8 @@
             <li><a href="#">DC1 MarioMV</a></li>
             <li><a href="#">DC1/4 Matisse</a></li>
           </ul>
+        </li>
+
         <li><a href="#">Important Info</a>
           <ul>
             <li><a href="#">Our History</a></li>
@@ -153,32 +154,32 @@
             <li><a href="#">DC Alliances</a></li>
             <li><a href="#">DC Youtube Channel</a></li>
           </ul>
+        </li>
+
         <li><a href="#">Events</a>
           <ul>
             <li><a href="#">HELLO</a></li>
           </ul>
-        <li><a href="#">Older Co-Leaders</a></li>
+        </li>
+
+        <li><a href="#">Anniversaries</a>
           <ul>
-            <li><a href="#">Current Leadership</a></li>
-          </ul>
-        <li><a href="#">Anniversaries</a></li>
-          <ul>
-            <li><a href="#">Clan Info</a>
-            <li><a href="#">Clan Info</a>
-            <li><a href="#">Clan Info</a>
-            <li><a href="#">Clan Info</a>
-            <li><a href="#">Clan Info</a>
+            <li><a href="#">Clan Info</a></li>
+            <li><a href="#">Clan Info</a></li>
+            <li><a href="#">Clan Info</a></li>
+            <li><a href="#">Clan Info</a></li>
+            <li><a href="#">Clan Info</a></li>
           </ul>
         </li>
-        <li>
-          <a href="#">PUZZLES</a>
+
+        <li><a href="#">PUZZLES</a>
           <ul>
             <li><a href="#">HELLO</a></li>
             <li><a href="#">HELLO</a></li>
           </ul>
         </li>
-        <li>
-          <a href="#">Extras<!-- ▾--></a>
+
+        <li><a href="#">Extras</a>
           <ul>
             <li><a href="#">DC Mottos</a></li>
           </ul>
@@ -187,7 +188,7 @@
     </nav>
   </header>
 
-<main id="home_page">
+  <main id="home_page">
     <section>
       <p><strong>Đ©</strong> is the short name of the clan, <strong>Đ©</strong> stands for <strong>Đark ©aptains</strong></p>
 
@@ -235,11 +236,16 @@
       </ul>
     </section>
 
-  <footer>
-      <p>© Dark Captains, 2021</p>
-      <p>Đ© now exists in Facebook and in Amino.</p>
-    </footer>
-	
+    <section class="rate">
+      <p><strong>Feel free to rate & comment our site:</strong></p>
+    </section>
   </main>
+
+  <footer>
+    <p>© Dark Captains, 2021</p>
+    <p>Đ© now exists in Facebook and in Amino.</p>
+  </footer>
+
 </body>
 </html>
+
