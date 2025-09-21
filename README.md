@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dark Captains ~ Steel Diver: Sub Wars</title>
   <style>
+    /* smooth scroll */
+    html { scroll-behavior: smooth; }
+
+    /* dynamic header gap (JS will set --header-h) */
+    :root { --header-h: 0px; }
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -91,11 +97,14 @@
       padding: 1em;
       background: white;
       box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      /* ensure anchored sections aren't hidden under the header */
+      scroll-margin-top: calc(var(--header-h) + 10px);
     }
 
-    h3 {
-      color: #cc0000;
-    }
+    /* If you later add other sections with their own ids, they will get the same scroll-margin */
+    section { margin-bottom: 1.25em; }
+
+    h3 { color: #cc0000; }
 
     .contact h3 {
       color: #ffff00;
@@ -208,7 +217,7 @@
     <section class="contact">
       <h3>In case you want to communicate or join us:</h3>
       <ol>
-        <li>Sub Wars FaceBook chat: <strong>ask <a href="https://www.facebook.com/ladaspanos13">Mario</a></strong> <small>(now goes as "Λαδάς Παναγιώτης" or "Panagiotis Ladas" in English)</small></li>
+        <li>Sub Wars FaceBook chat: <strong>ask <a href="https://www.facebook.com/ladaspanos13">Mario</a></strong></li>
         <li>Sub Wars FaceBook group: <a href="https://www.facebook.com/groups/subwars">https://www.facebook.com/groups/subwars</a></li>
         <li>Sub Wars Amino: <a href="https://aminoapps.com/c/SteelDiver/home/">https://aminoapps.com/c/SteelDiver/home/</a></li>
         <li>Email: <strong>steeldiversubwars3@gmail.com</strong></li>
@@ -246,6 +255,37 @@
     <p>Đ© now exists in Facebook and in Amino.</p>
   </footer>
 
+  <script>
+    (function() {
+      // Update CSS var with header height — used by scroll-margin-top
+      function updateHeaderHeight(){
+        var header = document.querySelector('header');
+        if (!header) return;
+        var h = header.offsetHeight;
+        document.documentElement.style.setProperty('--header-h', h + 'px');
+      }
+      updateHeaderHeight();
+      window.addEventListener('resize', updateHeaderHeight);
+
+      // Smooth scroll with offset for hash links; ignore href="#" placeholders
+      document.querySelectorAll('a[href^="#"]').forEach(function(a){
+        a.addEventListener('click', function(e){
+          var href = this.getAttribute('href');
+          if (!href || href === '#' || href === '#!') return; // leave default for placeholders
+          var id = href.slice(1);
+          var target = document.getElementById(id);
+          if (target) {
+            e.preventDefault();
+            var headerHeight = document.querySelector('header').offsetHeight || 0;
+            var rect = target.getBoundingClientRect();
+            var top = rect.top + window.pageYOffset - headerHeight - 10; // small gap
+            window.scrollTo({ top: top, behavior: 'smooth' });
+            // update URL hash without jumping
+            history.replaceState(null, '', '#' + id);
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
-
