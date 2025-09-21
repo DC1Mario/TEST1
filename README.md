@@ -181,13 +181,6 @@
     </nav>
   </header>
 
-  
-    <footer>
-      <p>© Dark Captains, 2021</p>
-      <p>Đ© now exists in Facebook and in Amino.</p>
-      <p>Visits: <strong>1,030</strong></p>
-    </footer>
-
 <main id="home_page">
     <section>
       <p><strong>Đ©</strong> is the short name of the clan, <strong>Đ©</strong> stands for <strong>Đark ©aptains</strong></p>
@@ -241,7 +234,12 @@
     </section>
   </main>
 
- 
+  <footer>
+      <p>© Dark Captains, 2021</p>
+      <p>Đ© now exists in Facebook and in Amino.</p>
+      <p>Visits: <strong>1,030</strong></p>
+    </footer>
+	
   </main>
 </body>
 </html>
