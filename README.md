@@ -9,7 +9,7 @@
     html { scroll-behavior: smooth; }
 
     /* dynamic header gap (JS will set --header-h) */
-    :root { --header-h: 10px; --header-height: 100px; } /* <-- adjust height here */
+    :root { --header-h: 0px; --header-height: 100px; } /* <-- adjust height here */
 
     body {
       font-family: Arial, sans-serif;
