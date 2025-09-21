@@ -18,6 +18,12 @@
       padding: 1em 0;
     }
 
+ header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
     header h1 {
       font-size: 1.8em;
       margin: 0.2em 0;
