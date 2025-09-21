@@ -369,7 +369,6 @@
       <li>100. Đ©Stavros {StavrosGamer}</li>
     </ul>
   </section>
-    </section>
 
 </main>
 
