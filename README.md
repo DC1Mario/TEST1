@@ -119,7 +119,7 @@
     <h1>Đark ©aptains ~ Steel Diver: Sub Wars</h1>
     <nav>
       <ul>
-        <li><a href="#">HOME PAGE</a></li>
+        <li><a href="home_page.html">HOME PAGE</a></li>
           <ul>
             <li><a href="#">Members' List</a></li>
           </ul>
@@ -181,58 +181,7 @@
     </nav>
   </header>
 
-  <main>
-    <section>
-      <p><strong>Đ©</strong> is the short name of the clan, <strong>Đ©</strong> stands for <strong>Đark ©aptains</strong></p>
-
-      <p>Đ© clan was one of the first clans in SDSW community of Miiverse. It started from Đ©Seba_Ω at August 18th of 2014, along with Tristan, Zepher(Pilot) and Leo.</p>
-
-      <p>In order to join, you needed to be Lv.20+ and have a winstreak of 5+. These requirements stopped after 3 months, making it easier for people to join.</p>
-
-      <p>Đ© was making many Chat-Rooms and Tournaments, in which everyone could be part.</p>
-
-      <p>Sometimes, some special contests were taking place, like "Drawing Contests" and "Co-Leader Of The Week", in which Đ© members were selecting a number between 0–10 and the winner could be Co-Leader for 7 days.</p>
-
-      <p>Đ© clan officially stopped in 8 November of 2017, when Nintendo shut down Miiverse, counting 188 members on its list.</p>
-
-      <p>Now Đ© continues unofficially in Facebook and in Amino. Find us there!<br>The clan today has <strong>191 members</strong>.</p>
-    </section>
-
-    <section class="contact">
-      <h3>In case you want to communicate or join us:</h3>
-      <ol>
-        <li>Sub Wars FaceBook chat: <strong>ask <a href="https://www.facebook.com/ladaspanos13">Mario</a></strong> <small>(now goes as "Λαδάς Παναγιώτης" or "Panagiotis Ladas" in English)</small></li>
-        <li>Sub Wars FaceBook group: <a href="https://www.facebook.com/groups/subwars">https://www.facebook.com/groups/subwars</a></li>
-        <li>Sub Wars Amino: <a href="https://aminoapps.com/c/SteelDiver/home/">https://aminoapps.com/c/SteelDiver/home/</a></li>
-        <li>Email: <strong>steeldiversubwars3@gmail.com</strong></li>
-      </ol>
-    </section>
-
-    <section>
-      <h3>Trivia / Fun facts about Đ©:</h3>
-      <ul>
-        <li>Đ© is considered the 3rd biggest clan in the history of EU community.
-          <ul>
-            <li>FS is the biggest team with 350+ members.</li>
-            <li>RS was the 2nd biggest clan with 200+ members.</li>
-          </ul>
-        </li>
-        <li>Đ© made the most Tournaments in the history of EU community.</li>
-        <li>F1Ray stated for Đ©: "DC is a high-honor society".</li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>Links:</h3>
-      <ul>
-        <li><a href="#">F1Ray's statement</a></li>
-      </ul>
-    </section>
-
-    <section class="rate">
-      <p><strong>Feel free to rate & comment our site:</strong></p>
-    </section>
-
+  
     <footer>
       <p>© Dark Captains, 2021</p>
       <p>Đ© now exists in Facebook and in Amino.</p>
