@@ -235,15 +235,9 @@
       </ul>
     </section>
 
-    <section class="rate">
-      <p><strong>Feel free to rate & comment our site:</strong></p>
-    </section>
-  </main>
-
   <footer>
       <p>© Dark Captains, 2021</p>
       <p>Đ© now exists in Facebook and in Amino.</p>
-      <p>Visits: <strong>1,030</strong></p>
     </footer>
 	
   </main>
