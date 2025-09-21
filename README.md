@@ -139,7 +139,7 @@
           <ul>
             <li><a href="#">Members' List</a></li>
             <li><a href="#">Ex Members</a></li>
-            <li><a href="dc_list_4">ĐC List #4 (11.02.2017)</a></li>
+            <li><a href="#dc_list_4">ĐC List #4 (11.02.2017)</a></li>
             <li><a href="#">FaceBook + Amino</a></li>
             <li><a href="#">Unknown if they are members</a></li>
           </ul>
