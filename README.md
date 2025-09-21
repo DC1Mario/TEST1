@@ -11,7 +11,7 @@
     margin: 0;
     background-color: #f5f5f5;
     color: #333;
-    overflow: hidden; /* prevent body scroll */
+    /* overflow: hidden; /* prevent body scroll */
   }
 
   header {
@@ -64,18 +64,16 @@
 
   /* Pages */
   .page {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100vh; /* full viewport */
-    overflow-y: auto; /* scroll inside page */
-    padding: 2em 1em 1em 1em;
-    background: white;
-    box-sizing: border-box;
-    display: none; /* hide by default */
-  }
+  min-height: 100vh; /* full viewport height */
+  padding: 2em 1em 1em 1em;
+  background: white;
+  box-sizing: border-box;
+  display: none; /* hide inactive pages */
+}
 
-  .page.active { display: block; }
+.page.active {
+  display: block;
+}
 
   section { margin-bottom: 1.25em; }
 
