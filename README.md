@@ -329,7 +329,6 @@
   </div>
     </main>
 
-</main>
   <footer>
     <p>© Dark Captains™</p>
     <p>Đ© now exists in Facebook and in Amino.</p>
