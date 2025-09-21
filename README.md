@@ -138,7 +138,7 @@
           <ul>
             <li><a href="#">Members' List</a></li>
             <li><a href="#">Ex Members</a></li>
-            <li><a href="#" data-page="dc_list_4">ĐC List #4 (11.02.2017)</a></li>
+            <li><a href="#" data-page="dc_list_4">DC LIST #4</a></li>
             <li><a href="#">FaceBook + Amino</a></li>
             <li><a href="#">Unknown if they are members</a></li>
           </ul>
@@ -172,9 +172,6 @@
 
         <li><a href="#">Anniversaries</a>
           <ul>
-            <li><a href="#">Clan Info</a></li>
-            <li><a href="#">Clan Info</a></li>
-            <li><a href="#">Clan Info</a></li>
             <li><a href="#">Clan Info</a></li>
             <li><a href="#">Clan Info</a></li>
           </ul>
@@ -244,7 +241,7 @@
       </ul>
     </section>
 
-    <section id="dc_list_4" class="page">
+<div id="dc_list_4" class="page">
   <section>
     <h2>★★ Đ© Member List #4 (11/02/2017) ★★</h2>
     <p>This is the 4th (and last) Đ© Official List of all members that was uploaded in Miiverse on 11 February 2017. It was made by Đ©¹Mario and included 160 members. Next to each member is their ID inside { }.</p>
@@ -367,13 +364,12 @@
       <li>099. Đ©Marios {MariosGamer}</li>
       <li>100. Đ©Stavros {StavrosGamer}</li>
     </ul>
-  </section>
+  </div>
     </main>
-
 
 </main>
   <footer>
-    <p>© Dark Captains, 2021</p>
+    <p>© Dark Captains™</p>
     <p>Đ© now exists in Facebook and in Amino.</p>
   </footer>
 
