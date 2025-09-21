@@ -250,7 +250,7 @@
     </section>
   </main>
 
-  <main id="dc_list_4">
+  <section id="dc_list_4">
   <section>
     <h2>★★ Đ© Member List #4 (11/02/2017) ★★</h2>
     <p>This is the 4th (and last) Đ© Official List of all members that was uploaded in Miiverse on 11 February 2017. It was made by Đ©¹Mario and included 160 members. Next to each member is their ID inside { }.</p>
@@ -374,6 +374,8 @@
       <li>100. Đ©Stavros {StavrosGamer}</li>
     </ul>
   </section>
+    </section>
+
 </main>
 
   <footer>
